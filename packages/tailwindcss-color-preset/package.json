@@ -1,0 +1,32 @@
+{
+  "name": "@leedomjs/tailwindcss-color-preset",
+  "version": "0.0.0",
+  "description": "Collecting theme color of some UI Frameworks for Tailwind CSS",
+  "keywords": [
+    "element-ui",
+    "element-plus",
+    "vant-ui",
+    "naive-ui",
+    "theme",
+    "color",
+    "tailwindcss",
+    "preset"
+  ],
+  "author": "Leedom",
+  "license": "MIT",
+  "homepage": "https://github.com/leedomjs/tailwindcss-preset#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leedomjs/tailwindcss-preset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leedomjs/tailwindcss-preset/issues"
+  },
+  "main": "index.js",
+  "peerDependencies": {
+    "tailwindcss": ">=2.2.19"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@leedomjs/tailwindcss-miniprogram-preset",
+  "version": "0.0.0",
+  "description": "mini program for tailwindcss that transform px to rpx",
+  "keywords": [
+    "miniprogram",
+    "rpx",
+    "tailwindcss",
+    "preset"
+  ],
+  "author": "Leedom",
+  "license": "MIT",
+  "homepage": "https://github.com/leedomjs/tailwindcss-preset#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leedomjs/tailwindcss-preset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leedomjs/tailwindcss-preset/issues"
+  },
+  "main": "index.js",
+  "peerDependencies": {
+    "tailwindcss": ">=2.2.19"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
