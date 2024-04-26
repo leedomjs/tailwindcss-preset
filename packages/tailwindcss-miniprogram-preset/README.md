@@ -3,6 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@leedomjs/tailwindcss-miniprogram-preset?color=333&label=)](https://www.npmjs.com/package/@leedomjs/tailwindcss-miniprogram-preset)
 
 This package is designed for miniprogram, and transforms `px` to  `rpx`.
+`0.25rem` = `4px` = `8rpx`
 
 ## Usage
 
@@ -38,6 +39,20 @@ module.exports = {
   plugins: [],
   ...
 }
+```
+
+## Tips
+
+1. Use `-dv-` instead of `/` to generate percentage
+2. Use `-` instead of `.`
+
+For example:
+``` html
+<!-- w-1/2 = w-1-dv-2 -->
+<div class="w-1/2 w-1-dv-2">hello, world.</div>
+
+<!-- w-1.5 = w-1-5 -->
+<div class="w-1.5 w-1-5">hello, world.</div>
 ```
 
 ## License

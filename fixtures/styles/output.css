@@ -138,6 +138,10 @@
   width: 8rpx
 }
 
+.w-3-5 {
+  width: 28rpx
+}
+
 .max-w-20 {
   max-width: 160rpx
 }
