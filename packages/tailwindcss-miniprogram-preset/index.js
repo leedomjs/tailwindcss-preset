@@ -2,6 +2,7 @@ const {
   spacing,
   fontSize,
   lineHeight,
+  extend,
 } = require('./transform')
 
 module.exports = (opt = {
@@ -21,7 +22,9 @@ module.exports = (opt = {
     fontSize,
     lineHeight,
     screens: [], // mp doesn't need screens.
-    extend: {},
+    extend: {
+      ...extend,
+    },
   },
   corePlugins: {
     preflight: false, // mp doesn't need base styles.

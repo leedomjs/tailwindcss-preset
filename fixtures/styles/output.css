@@ -110,8 +110,32 @@
   margin: 32rpx
 }
 
-.w-1-5 {
-  width: 12rpx
+.w-1-dv-5 {
+  width: 20%
+}
+
+.w-1-dv-6 {
+  width: 16.666667%
+}
+
+.w-1-dv-12 {
+  width: 8.333333%
+}
+
+.w-1-dv-4 {
+  width: 25%
+}
+
+.w-1-dv-3 {
+  width: 33.333333%
+}
+
+.w-1-dv-2 {
+  width: 50%
+}
+
+.w-1 {
+  width: 8rpx
 }
 
 .max-w-20 {
@@ -143,8 +167,4 @@
 .text-sm {
   font-size: 28rpx;
   line-height: 40rpx
-}
-
-.leading-3 {
-  line-height: 24rpx
 }
