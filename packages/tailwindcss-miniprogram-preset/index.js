@@ -1,7 +1,8 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
-const transformFontSize = require('./transformFontSize')
-
-const defaultFontSize = transformFontSize(defaultTheme.fontSize)
+const {
+  spacing,
+  fontSize,
+  lineHeight,
+} = require('./transform')
 
 module.exports = (opt = {
   mp: true,
@@ -16,21 +17,9 @@ module.exports = (opt = {
      * IPhone6 1px = 2rpx
      * So with tailwindcss in mp, 0.25rem = 8rpx
      */
-    spacing: Array.from({ length: 101 }).reduce((obj, _, i) => {
-      obj[i] = `${i * 8}rpx;`
-      obj[i + 0.5] = `${(i + 0.5) * 8}rpx;`
-      return obj
-    }, defaultTheme.spacing),
-
-    fontSize: Array.from({ length: 101 }).reduce((obj, _, index) => {
-      obj[index] = `${index * 8}rpx`
-      return obj
-    }, defaultFontSize),
-
-    lineHeight: Array.from({ length: 20 }).reduce((obj, _, i) => {
-      obj[i + 1] = `${(i + 1) * 8}rpx;`
-      return obj
-    }, defaultTheme.lineHeight),
+    spacing,
+    fontSize,
+    lineHeight,
     screens: [], // mp doesn't need screens.
     extend: {},
   },

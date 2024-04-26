@@ -107,7 +107,15 @@
 }
 
 .m-4 {
-  margin: 32rpx;
+  margin: 32rpx
+}
+
+.w-1-5 {
+  width: 12rpx
+}
+
+.max-w-20 {
+  max-width: 160rpx
 }
 
 .border {
@@ -125,15 +133,18 @@
 }
 
 .bg-van-gradient-orange {
-  background-color: linear-gradient(to right, #ffd01e, #ff8917);
   background-image: linear-gradient(to right, #ffd01e, #ff8917)
 }
 
 .p-4 {
-  padding: 32rpx;
+  padding: 32rpx
 }
 
 .text-sm {
   font-size: 28rpx;
   line-height: 40rpx
+}
+
+.leading-3 {
+  line-height: 24rpx
 }
