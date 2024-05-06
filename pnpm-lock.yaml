@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@leedomjs/eslint-config-basic':
-        specifier: ^0.10.2
-        version: 0.10.2(eslint@8.57.0)
+        specifier: ^0.11.1
+        version: 0.11.1(eslint@8.57.0)
       '@leedomjs/tailwindcss-preset':
         specifier: workspace:*
         version: link:packages/tailwindcss-preset
@@ -168,8 +168,8 @@ packages:
       type-detect: 4.0.8
     dev: true
 
-  /@leedomjs/eslint-config-basic@0.10.2(eslint@8.57.0):
-    resolution: {integrity: sha512-/MO3u/GQFOGLNAQUtkiDU1MUzJ8mcAeEoCmjdTgul2vwhQIDreqIr5vZOOWaaXdbwtcTQYjKV9loMf7IGLwfbA==}
+  /@leedomjs/eslint-config-basic@0.11.1(eslint@8.57.0):
+    resolution: {integrity: sha512-/0at4NrH02nmcgyaqs+Amh920rjDAvXk6/ss37Sq6DKeM6lLN+lZIDKniITxxSSgGelsQYXM+3sMOvV2cbNvXQ==}
     peerDependencies:
       eslint: '>=7.4.0 <9'
     dependencies:

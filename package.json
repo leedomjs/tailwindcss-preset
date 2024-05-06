@@ -33,7 +33,7 @@
     "packages/**/*.js": "eslint --fix"
   },
   "devDependencies": {
-    "@leedomjs/eslint-config-basic": "^0.10.2",
+    "@leedomjs/eslint-config-basic": "^0.11.1",
     "@leedomjs/tailwindcss-preset": "workspace:*",
     "bumpp": "^9.4.0",
     "eslint": "8.57.0",
