@@ -30,7 +30,7 @@ module.exports = {
      * 
      * preset({ mp: true })
      */
-    preset,
+    preset(),
   ],
   content: [...],
   theme: {

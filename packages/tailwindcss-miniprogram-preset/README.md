@@ -30,7 +30,7 @@ module.exports = {
      *  mp: false
      * })
      */
-    mp,
+    mp(),
   ],
   content: [...],
   theme: {
