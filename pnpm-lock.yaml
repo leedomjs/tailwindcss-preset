@@ -9,14 +9,14 @@ importers:
   .:
     devDependencies:
       '@leedomjs/eslint-config-basic':
-        specifier: ^0.11.1
-        version: 0.11.1(eslint@8.57.0)
+        specifier: ^0.11.2
+        version: 0.11.2(eslint@8.57.0)
       '@leedomjs/tailwindcss-preset':
         specifier: workspace:*
         version: link:packages/tailwindcss-preset
       bumpp:
-        specifier: ^9.4.0
-        version: 9.4.0
+        specifier: ^9.4.1
+        version: 9.4.1
       eslint:
         specifier: 8.57.0
         version: 8.57.0
@@ -168,8 +168,8 @@ packages:
       type-detect: 4.0.8
     dev: true
 
-  /@leedomjs/eslint-config-basic@0.11.1(eslint@8.57.0):
-    resolution: {integrity: sha512-/0at4NrH02nmcgyaqs+Amh920rjDAvXk6/ss37Sq6DKeM6lLN+lZIDKniITxxSSgGelsQYXM+3sMOvV2cbNvXQ==}
+  /@leedomjs/eslint-config-basic@0.11.2(eslint@8.57.0):
+    resolution: {integrity: sha512-O6TSKGuQSPaz0EazkrJZaQHHi2APTCz/PJ4ssYUTFlYkDf3xakNJO+77eE8SeODrzn5cCvpvLlZitlJtytpjdA==}
     peerDependencies:
       eslint: '>=7.4.0 <9'
     dependencies:
@@ -377,8 +377,8 @@ packages:
     dependencies:
       fill-range: 7.0.1
 
-  /bumpp@9.4.0:
-    resolution: {integrity: sha512-T+N+B5mSSvsTt7kgxGXCKQd957IxmEZwMn2nWirspGUY08u/cBNrpQDMXk43fzLegZtKtXS1v9S06vq2zf6lXQ==}
+  /bumpp@9.4.1:
+    resolution: {integrity: sha512-kzhp/LpNX0HkUpEyLd7sU2LTN/mbAVgcxJ1Zi2cAJTE/tul6rypSKGpH8UywDpzKWItL8LVdKsIFnwmylw0+7g==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
