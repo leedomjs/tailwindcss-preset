@@ -26,7 +26,7 @@
     "build:mp": "pnpm --dir ./packages/tailwindcss-miniprogram-preset build",
     "build:preset": "pnpm --dir ./packages/tailwindcss-preset build",
     "build": "pnpm build:color && pnpm build:mp && pnpm build:preset",
-    "release": "bumpp -r && pnpm -r publish --access public",
+    "release": "pnpm build && bumpp -r && pnpm -r publish --access public",
     "prepare": "simple-git-hooks"
   },
   "simple-git-hooks": {

@@ -19,9 +19,21 @@ pnpm add -D tailwindcss @leedomjs/tailwindcss-color-preset
 
 const color = require('@leedomjs/tailwindcss-color-preset')
 
+
+/**
+ * There is an object param that contains some fields `element`, `naive`, `vant`.
+ * 
+ * These params default to false, setting to true will enable the color.
+ * If your project depends on `element-ui`, `element-plus`, `naive-ui`, `vant-ui`, the color will be enable automatically, even though you set value to false.
+ * 
+ */
 module.exports = {
   presets: [
-    color,
+    color({
+      element: true,
+      naive: true,
+      vant: true,
+    }),
   ],
   content: [...],
   theme: {

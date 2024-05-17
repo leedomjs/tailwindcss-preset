@@ -31,3 +31,16 @@ export type Color = string | { [key: string]: string }
 export interface ColorConfig {
   [key: string]: Color
 }
+
+/**
+ * select color
+ * @example
+ * {
+ *    element: true
+ * }
+ */
+export interface ColorOption {
+  element?: boolean
+  naive?: boolean
+  vant?: boolean
+}
