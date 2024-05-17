@@ -1,10 +1,9 @@
+import preset from '@leedomjs/tailwindcss-preset'
+
 /** @type {import('tailwindcss').Config} */
-
-const preset = require('@leedomjs/tailwindcss-preset')
-
-module.exports = {
+export default {
   presets: [
-    preset({ mp: true }),
+    preset({ mp: false }),
   ],
   content: ['./fixtures/index.html'],
   theme: {

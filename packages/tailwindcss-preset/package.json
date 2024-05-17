@@ -1,5 +1,6 @@
 {
   "name": "@leedomjs/tailwindcss-preset",
+  "type": "module",
   "version": "0.2.0",
   "description": "tailwindcss preset",
   "keywords": [
@@ -20,7 +21,22 @@
   "bugs": {
     "url": "https://github.com/leedomjs/tailwindcss-preset/issues"
   },
-  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.mjs",
+  "scripts": {
+    "build": "unbuild"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "peerDependencies": {
     "tailwindcss": ">=2.2.19"
   },
@@ -28,5 +44,9 @@
     "@leedomjs/tailwindcss-color-preset": "workspace:*",
     "@leedomjs/tailwindcss-miniprogram-preset": "workspace:*",
     "tailwindcss": "^3.4.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "unbuild": "^2.0.0"
   }
 }

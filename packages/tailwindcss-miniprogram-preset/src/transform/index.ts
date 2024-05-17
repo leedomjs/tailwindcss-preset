@@ -1,0 +1,5 @@
+export { default as spacing } from './spacing'
+export { default as fontSize } from './fontSize'
+export { default as lineHeight } from './lineHeight'
+export { default as extend } from './extend'
+export type * from './types'

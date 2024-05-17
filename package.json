@@ -19,10 +19,13 @@
   "bugs": {
     "url": "https://github.com/leedomjs/tailwindcss-preset/issues"
   },
-  "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "build:css": "tailwindcss -i fixtures/styles/tailwind.css -o fixtures/styles/output.css -w",
+    "build:color": "pnpm --dir ./packages/tailwindcss-color-preset build",
+    "build:mp": "pnpm --dir ./packages/tailwindcss-miniprogram-preset build",
+    "build:preset": "pnpm --dir ./packages/tailwindcss-preset build",
+    "build": "pnpm build:color && pnpm build:mp && pnpm build:preset",
     "release": "bumpp -r && pnpm -r publish --access public",
     "prepare": "simple-git-hooks"
   },
@@ -30,15 +33,17 @@
     "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
-    "packages/**/*.js": "eslint --fix"
+    "packages/**/*.ts": "eslint --fix"
   },
   "devDependencies": {
-    "@leedomjs/eslint-config-basic": "^0.11.2",
+    "@leedomjs/eslint-config-ts": "^0.11.2",
     "@leedomjs/tailwindcss-preset": "workspace:*",
     "bumpp": "^9.4.1",
     "eslint": "8.57.0",
     "lint-staged": "^15.2.2",
     "simple-git-hooks": "^2.11.1",
-    "tailwindcss": "^3.4.3"
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.3.3",
+    "unbuild": "^2.0.0"
   }
 }

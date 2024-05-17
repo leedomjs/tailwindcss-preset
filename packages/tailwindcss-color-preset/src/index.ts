@@ -1,11 +1,11 @@
-const {
+import {
   ElColors,
   NaiveColors,
-  VanColors,
   VanBackground,
-} = require('./colors')
+  VanColors,
+} from './colors'
 
-module.exports = {
+export default {
   theme: {
     extend: {
       colors: {
@@ -19,3 +19,5 @@ module.exports = {
     },
   },
 }
+
+export type * from './colors/types'

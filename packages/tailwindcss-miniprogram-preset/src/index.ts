@@ -1,13 +1,13 @@
-const {
-  spacing,
+import {
+  extend,
   fontSize,
   lineHeight,
-  extend,
-} = require('./transform')
+  spacing,
+} from './transform'
 
-module.exports = (opt = {
-  mp: true,
-}) => opt.mp ? {
+export default (opt = {
+  enable: true,
+}) => opt.enable ? {
   theme: {
     /**
      * refer to https://tailwindcss.com/docs/customizing-spacing
@@ -30,3 +30,5 @@ module.exports = (opt = {
     preflight: false, // mp doesn't need base styles.
   },
 } : {}
+
+export type * from './transform/types'

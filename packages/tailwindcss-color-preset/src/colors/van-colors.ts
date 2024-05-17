@@ -1,6 +1,7 @@
 // refer to https://github.com/youzan/vant/blob/main/packages/vant/src/style/css-variables.less
+import type { ColorConfig } from './types'
 
-export default {
+const VanColors: ColorConfig = {
   'van-primary': '#1989fa',
   'van-success': '#07c160',
   'van-danger': '#ee0a24',
@@ -20,3 +21,5 @@ export default {
     8: '#323233',
   },
 }
+
+export default VanColors

@@ -1,4 +1,6 @@
-export default {
+import type { ColorConfig } from './types'
+
+const NaiveColors: ColorConfig = {
   'n-primary': '#18a058',
   'n-success': '#18a058',
   'n-info': '#2080f0',
@@ -6,3 +8,5 @@ export default {
   'n-error': '#d03050',
   'n-gray': '#333639',
 }
+
+export default NaiveColors

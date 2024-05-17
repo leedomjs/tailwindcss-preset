@@ -23,11 +23,11 @@ const mp = require('@leedomjs/tailwindcss-miniprogram-preset')
 module.exports = {
   presets: [
     /**
-     * You can also set an object param that contains a field called `mp`.
-     * `mp` defaults to `true`, setting `mp` be `false` will enable default config of tailwindcss and disable the preset meanwhile.
+     * You can also set an object param that contains a field called `enable`.
+     * `enable` defaults to `true`, setting `enable` be `false` will enable default config of tailwindcss and disable the preset meanwhile.
      * 
      * mp({
-     *  mp: false
+     *  enable: false
      * })
      */
     mp(),
