@@ -24,13 +24,21 @@ const preset = require('@leedomjs/tailwindcss-preset')
 module.exports = {
   presets: [
     /**
-     * You can also set an object param that contains a field called `mp`.
-     * `mp` defaults to `false`, setting `mp` be `true` will enable the preset, 
-     * otherwise will enable default config of tailwindcss and disable the preset meanwhile
+     * There is an object param that contains some fields `mp`, `element`, `naive`, `vant`.
      * 
-     * preset({ mp: true })
+     * `mp` defaults to `false`, setting `mp` be `true` will enable the preset, 
+     * otherwise will enable default config of tailwindcss and disable the preset meanwhile.
+     * 
+     * `element`, `naive`, `vant`, these params default to false, setting to true will enable the color.
+     * If your project depends on `element-ui`, `element-plus`, `naive-ui`, `vant-ui`, the color will be enable automatically, even though you set value to false.
+     * 
      */
-    preset(),
+    preset({
+      mp: true,
+      element: true,
+      naive: true,
+      vant: true,
+    }),
   ],
   content: [...],
   theme: {
