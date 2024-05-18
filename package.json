@@ -26,10 +26,7 @@
   "scripts": {
     "lint": "eslint .",
     "build:css": "tailwindcss -i fixtures/styles/tailwind.css -o fixtures/styles/output.css -w",
-    "build:color": "pnpm --dir ./packages/tailwindcss-color-preset build",
-    "build:mp": "pnpm --dir ./packages/tailwindcss-miniprogram-preset build",
-    "build:preset": "pnpm --dir ./packages/tailwindcss-preset build",
-    "build": "pnpm build:color && pnpm build:mp && pnpm build:preset",
+    "build": "pnpm -r build",
     "release": "pnpm build && bumpp -r && pnpm -r publish --access public",
     "prepare": "simple-git-hooks"
   },
