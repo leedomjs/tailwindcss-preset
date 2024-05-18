@@ -1,6 +1,3 @@
 {
-  "extends": "@leedomjs/eslint-config-ts",
-  "rules": {
-    "@stylistic/js/multiline-ternary": 0
-  }
+  "extends": "@leedomjs/eslint-config-ts"
 }

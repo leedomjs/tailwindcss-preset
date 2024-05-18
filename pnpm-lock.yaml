@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@leedomjs/eslint-config-ts':
-        specifier: ^0.11.2
-        version: 0.11.2(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.3.3)
+        specifier: ^0.11.3
+        version: 0.11.3(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.3.3)
       '@leedomjs/tailwindcss-preset':
         specifier: workspace:*
         version: link:packages/tailwindcss-preset
@@ -878,8 +878,8 @@ packages:
       type-detect: 4.0.8
     dev: true
 
-  /@leedomjs/eslint-config-basic@0.11.2(@typescript-eslint/parser@6.21.0)(eslint@8.57.0):
-    resolution: {integrity: sha512-O6TSKGuQSPaz0EazkrJZaQHHi2APTCz/PJ4ssYUTFlYkDf3xakNJO+77eE8SeODrzn5cCvpvLlZitlJtytpjdA==}
+  /@leedomjs/eslint-config-basic@0.11.3(@typescript-eslint/parser@6.21.0)(eslint@8.57.0):
+    resolution: {integrity: sha512-uW3t8VBNoQ0/A0HWV2MHdFeDlRY73X75gGC3CHR4ckH+G+vWcF/F9lKf6vVWcqBDWv1p+Y64qXpyYkGysI2eLA==}
     peerDependencies:
       eslint: '>=7.4.0 <9'
     dependencies:
@@ -894,14 +894,14 @@ packages:
       - supports-color
     dev: true
 
-  /@leedomjs/eslint-config-ts@0.11.2(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-V/uIl9+8cUf2KPiQ4xDm0QnXxhn241NCrRoKmosclJ0/ff6BHiG56brBRWxhAvjSptk1iU6e3ueCoKHeyLvqUA==}
+  /@leedomjs/eslint-config-ts@0.11.3(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-zYTPd5prpvPh9jgu37lRWpQ6XJ3WbZfqWO9XytSVmtmn49nbOJu7l4J8c7LVc5sHetFGehClgbD7bS8XTtDgWw==}
     peerDependencies:
       eslint: '>=7.4.0 <9'
-      typescript: '>=3.9 <5.4.0'
+      typescript: '>=3.9 <=5.3.3'
     dependencies:
       '@antfu/eslint-config-ts': 0.43.1(eslint@8.57.0)(typescript@5.3.3)
-      '@leedomjs/eslint-config-basic': 0.11.2(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)
+      '@leedomjs/eslint-config-basic': 0.11.3(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)
       eslint: 8.57.0
       typescript: 5.3.3
     transitivePeerDependencies:
