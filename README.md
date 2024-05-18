@@ -29,8 +29,11 @@ module.exports = {
      * `mp` defaults to `false`, setting `mp` be `true` will enable the preset, 
      * otherwise will enable default config of tailwindcss and disable the preset meanwhile.
      * 
-     * `element`, `naive`, `vant`, these params default to false, setting to true will enable the color.
-     * If your project depends on `element-ui`, `element-plus`, `naive-ui`, `vant-ui`, the color will be enable automatically, even though you set value to false.
+     * `element`, `naive`, `vant`, these params default to dependencies that your project uses.
+     * If your project depends on `element-ui`, `element-plus`, `naive-ui`, `vant-ui`, 
+     * the color will be enable automatically.
+     * Setting to false will disable the color, otherwise will enabled.
+     * 
      * 
      */
     preset({

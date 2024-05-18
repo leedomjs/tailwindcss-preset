@@ -12,19 +12,19 @@ const NAIVE: boolean = isPackageExists('naive-ui')
 const VANT: boolean = isPackageExists('vant')
 
 export default (opt: ColorOption = {
-  element: false,
-  naive: false,
-  vant: false,
+  element: ELEMENT,
+  naive: NAIVE,
+  vant: VANT,
 }) => ({
   theme: {
     extend: {
       colors: {
-        ...((opt.element || ELEMENT) ? ElColors : {}),
-        ...((opt.naive || NAIVE) ? NaiveColors : {}),
-        ...((opt.vant || VANT) ? VanColors : {}),
+        ...(opt.element ? ElColors : {}),
+        ...(opt.naive ? NaiveColors : {}),
+        ...(opt.vant ? VanColors : {}),
       },
       backgroundImage: {
-        ...((opt.vant || VANT) ? VanBackground : {}),
+        ...(opt.vant ? VanBackground : {}),
       },
     },
   },
