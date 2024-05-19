@@ -1,3 +1,6 @@
 {
-  "extends": "@leedomjs/eslint-config-ts"
+  "extends": "@leedomjs/eslint-config-ts",
+  "rules": {
+    "unused-imports/no-unused-imports": 0
+  }
 }

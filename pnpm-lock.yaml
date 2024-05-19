@@ -73,6 +73,9 @@ importers:
       '@leedomjs/tailwindcss-miniprogram-preset':
         specifier: workspace:*
         version: link:../tailwindcss-miniprogram-preset
+      local-pkg:
+        specifier: ^0.5.0
+        version: 0.5.0
       tailwindcss:
         specifier: ^3.4.3
         version: 3.4.3

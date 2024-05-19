@@ -1,14 +1,9 @@
-import preset from '@leedomjs/tailwindcss-preset'
+import leedom from '@leedomjs/tailwindcss-preset'
 
 /** @type {import('tailwindcss').Config} */
 export default {
   presets: [
-    preset({
-      mp: true,
-      element: true,
-      naive: true,
-      vant: true,
-    }),
+    leedom(),
   ],
   content: ['./fixtures/index.html'],
   theme: {
