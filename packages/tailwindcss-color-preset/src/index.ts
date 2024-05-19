@@ -1,4 +1,5 @@
 import { isPackageExists } from 'local-pkg'
+import type { Config } from 'tailwindcss'
 import {
   ElColors,
   NaiveColors,
@@ -15,7 +16,8 @@ export default (opt: ColorOption = {
   element: ELEMENT,
   naive: NAIVE,
   vant: VANT,
-}) => ({
+}): Config => ({
+  content: [],
   theme: {
     extend: {
       colors: {

@@ -1,7 +1,5 @@
 // refer to https://github.com/element-plus/element-plus/blob/dev/packages/theme-chalk/src/common/var.scss
-import type { ColorConfig } from './types'
-
-const ElColors: ColorConfig = {
+const ElColors = {
   'el-primary': {
     DEFAULT: '#409eff',
     3: '#79bbff',

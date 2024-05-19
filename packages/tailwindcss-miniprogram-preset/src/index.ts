@@ -1,3 +1,4 @@
+import type { Config } from 'tailwindcss'
 import {
   extend,
   fontSize,
@@ -11,7 +12,8 @@ export interface MiniProgramConfig {
 
 export default (opt: MiniProgramConfig = {
   enable: true,
-}) => opt.enable ? {
+}): Config => opt.enable ? {
+  content: [],
   theme: {
     /**
      * refer to https://tailwindcss.com/docs/customizing-spacing
@@ -33,6 +35,8 @@ export default (opt: MiniProgramConfig = {
   corePlugins: {
     preflight: false, // mp doesn't need base styles.
   },
-} : {}
+} : {
+  content: [],
+}
 
 export type * from './transform/types'

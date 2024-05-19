@@ -1,6 +1,4 @@
-import type { ColorConfig } from './types'
-
-const NaiveColors: ColorConfig = {
+const NaiveColors = {
   'n-primary': '#18a058',
   'n-success': '#18a058',
   'n-info': '#2080f0',

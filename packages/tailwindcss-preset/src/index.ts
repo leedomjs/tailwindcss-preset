@@ -2,13 +2,11 @@ import { isPackageExists } from 'local-pkg'
 import color from '@leedomjs/tailwindcss-color-preset'
 import mp from '@leedomjs/tailwindcss-miniprogram-preset'
 
-import type { Color, ColorOption } from '@leedomjs/tailwindcss-color-preset'
-
-import type * as miniprogram from '@leedomjs/tailwindcss-miniprogram-preset'
+import type { ColorOption } from '@leedomjs/tailwindcss-color-preset'
+import type { Config } from 'tailwindcss'
 
 /**
  * combine color and mp types
- *
  * @example
  * {
  *    mp?: boolean
@@ -30,7 +28,8 @@ export default (opt: PresetOption = {
   element: ELEMENT,
   naive: NAIVE,
   vant: VANT,
-}) => ({
+}): Config => ({
+  content: [],
   presets: [
     color({
       element: opt.element ?? ELEMENT,
