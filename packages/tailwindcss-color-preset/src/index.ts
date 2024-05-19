@@ -19,9 +19,9 @@ export default (opt: ColorOption = {
   theme: {
     extend: {
       colors: {
-        ...(opt.element ? ElColors : {}),
-        ...(opt.naive ? NaiveColors : {}),
-        ...(opt.vant ? VanColors : {}),
+        ...(opt.element ?? ELEMENT ? ElColors : {}),
+        ...(opt.naive ?? NAIVE ? NaiveColors : {}),
+        ...(opt.vant ?? VANT ? VanColors : {}),
       },
       backgroundImage: {
         ...(opt.vant ? VanBackground : {}),
