@@ -5,7 +5,11 @@ import {
   spacing,
 } from './transform'
 
-export default (opt = {
+export interface MiniProgramConfig {
+  enable?: boolean
+}
+
+export default (opt: MiniProgramConfig = {
   enable: true,
 }) => opt.enable ? {
   theme: {
