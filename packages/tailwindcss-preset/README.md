@@ -16,25 +16,22 @@ pnpm add -D tailwindcss @leedomjs/tailwindcss-preset
 
 ### Config `tailwind.config.js`
 
-```js
-/** @type {import('tailwindcss').Config} */
+> There is an object param that contains some fields `mp`, `element`, `naive`, `vant`.
+> 
+> `mp` defaults to `false`, setting `mp` be `true` will enable the preset, 
+> otherwise will enable default config of tailwindcss and disable the preset meanwhile.
+>
+> `element`, `naive`, `vant`, these params default to dependencies that your project uses.
+>
+> If your project depends on `element-ui`, `element-plus`, `naive-ui`, `vant-ui`,the color will be enable automatically. Setting to false will disable the color, otherwise will enabled.
 
+
+```js
 const leedom = require('@leedomjs/tailwindcss-preset')
 
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   presets: [
-    /**
-     * There is an object param that contains some fields `mp`, `element`, `naive`, `vant`.
-     * 
-     * `mp` defaults to `false`, setting `mp` be `true` will enable the preset, 
-     * otherwise will enable default config of tailwindcss and disable the preset meanwhile.
-     * 
-     * `element`, `naive`, `vant`, these params default to dependencies that your project uses.
-     * If your project depends on `element-ui`, `element-plus`, `naive-ui`, `vant-ui`, 
-     * the color will be enable automatically.
-     * Setting to false will disable the color, otherwise will enabled.
-     * 
-     */
     leedom({
       mp: true,
       element: true,
