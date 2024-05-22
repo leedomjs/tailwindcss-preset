@@ -26,7 +26,7 @@ export default (opt: ColorOption = {
         ...(opt.vant ?? VANT ? VanColors : {}),
       },
       backgroundImage: {
-        ...(opt.vant ? VanBackground : {}),
+        ...(opt.vant ?? VANT ? VanBackground : {}),
       },
     },
   },
