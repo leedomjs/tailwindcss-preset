@@ -12,3 +12,5 @@ export interface ColorOption {
   naive?: boolean
   vant?: boolean
 }
+
+export type Option = ColorOption | boolean
