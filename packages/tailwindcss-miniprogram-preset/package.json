@@ -1,7 +1,7 @@
 {
   "name": "@leedomjs/tailwindcss-miniprogram-preset",
   "type": "module",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "mini program for tailwindcss that transform px to rpx",
   "keywords": [
     "miniprogram",

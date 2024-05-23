@@ -1,7 +1,7 @@
 {
   "name": "@leedomjs/tailwindcss-color-preset",
   "type": "module",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Collecting theme color of some UI Frameworks for Tailwind CSS",
   "keywords": [
     "element-ui",
