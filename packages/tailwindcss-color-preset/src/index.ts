@@ -3,7 +3,7 @@ import type { Config } from 'tailwindcss'
 import {
   ElColors,
   NaiveColors,
-  VanBackground,
+  VanBackgroundImage,
   VanColors,
 } from './colors'
 import type { Option } from './colors/types'
@@ -19,8 +19,8 @@ export default (opt?: Option): Config => {
     ...(opt?.vant ?? VANT ? VanColors : {}),
   }
 
-  const backgroundImage = typeof opt === 'boolean' ? (opt ? { ...VanBackground } : {}) : {
-    ...(opt?.vant ?? VANT ? VanBackground : {}),
+  const backgroundImage = typeof opt === 'boolean' ? (opt ? { ...VanBackgroundImage } : {}) : {
+    ...(opt?.vant ?? VANT ? VanBackgroundImage : {}),
   }
 
   return {
