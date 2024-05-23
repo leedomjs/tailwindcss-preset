@@ -42,3 +42,14 @@ export interface PercentExtend {
 export interface FontSizeValue {
   [key: string]: [string, { lineHeight: string }]
 }
+
+/**
+ * miniprogram preset config
+ * @example
+ * {
+ *   enable: true
+ * }
+ */
+export interface MiniProgramConfig {
+  enable?: boolean
+}

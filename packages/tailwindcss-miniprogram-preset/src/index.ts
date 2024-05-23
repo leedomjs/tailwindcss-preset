@@ -6,9 +6,7 @@ import {
   spacing,
 } from './transform'
 
-export interface MiniProgramConfig {
-  enable?: boolean
-}
+import type { MiniProgramConfig } from './transform/types'
 
 export default (opt: MiniProgramConfig = {
   enable: true,
