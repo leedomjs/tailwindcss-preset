@@ -1,6 +1,6 @@
+import type { Config } from 'tailwindcss'
 import leedom from '@leedomjs/tailwindcss-preset'
 
-/** @type {import('tailwindcss').Config} */
 export default {
   presets: [
     leedom(),
@@ -10,4 +10,4 @@ export default {
     extend: {},
   },
   plugins: [],
-}
+} satisfies Config

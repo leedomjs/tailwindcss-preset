@@ -15,7 +15,7 @@ pnpm add -D tailwindcss @leedomjs/tailwindcss-preset
 ```
 
 ### Config `tailwind.config.js`
-
+> [!NOTE]
 > There is an object param that contains some fields `mp`, `element`, `naive`, `vant`.
 > 
 > `mp` defaults to `false`, setting `mp` be `true` will enable the preset, 
