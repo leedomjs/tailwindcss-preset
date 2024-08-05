@@ -23,6 +23,9 @@
   "bugs": {
     "url": "https://github.com/leedomjs/tailwindcss-preset/issues"
   },
+  "engines": {
+    "node": "^18.12.0 || ^20.9.0 || >=22.0"
+  },
   "scripts": {
     "lint": "eslint .",
     "build:css": "tailwindcss -i fixtures/styles/tailwind.css -o fixtures/styles/output.css -w",
@@ -37,14 +40,14 @@
     "packages/**/*.ts": "eslint --fix"
   },
   "devDependencies": {
-    "@leedomjs/eslint-config-ts": "^0.11.3",
+    "@leedomjs/eslint-config-ts": "^0.12.2",
     "@leedomjs/tailwindcss-preset": "workspace:*",
-    "bumpp": "^9.4.1",
+    "bumpp": "^9.4.2",
     "eslint": "8.57.0",
-    "lint-staged": "^15.2.2",
+    "lint-staged": "^15.2.8",
     "simple-git-hooks": "^2.11.1",
-    "tailwindcss": "^3.4.3",
-    "typescript": "^5.3.3",
+    "tailwindcss": "^3.4.7",
+    "typescript": "~5.3.3",
     "unbuild": "^2.0.0"
   }
 }
