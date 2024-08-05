@@ -1,0 +1,321 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`color-preset > should get all configs 1`] = `
+{
+  "content": [],
+  "theme": {
+    "extend": {
+      "backgroundImage": {
+        "van-gradient-orange": "linear-gradient(to right, #ffd01e, #ff8917)",
+        "van-gradient-red": "linear-gradient(to right, #ff6034, #ee0a24)",
+      },
+      "colors": {
+        "el-danger": {
+          "3": "#f89898",
+          "5": "#fab6b6",
+          "7": "#fcd3d3",
+          "8": "#fde2e2",
+          "9": "#fef0f0",
+          "DEFAULT": "#f56c6c",
+          "dark": "#c45656",
+        },
+        "el-error": {
+          "3": "#f89898",
+          "5": "#fab6b6",
+          "7": "#fcd3d3",
+          "8": "#fde2e2",
+          "9": "#fef0f0",
+          "DEFAULT": "#f56c6c",
+          "dark": "#c45656",
+        },
+        "el-info": {
+          "3": "#b1b3b8",
+          "5": "#c8c9cc",
+          "7": "#dedfe0",
+          "8": "#e9e9eb",
+          "9": "#f4f4f5",
+          "DEFAULT": "#909399",
+          "dark": "#73767a",
+        },
+        "el-primary": {
+          "3": "#79bbff",
+          "5": "#a0cfff",
+          "7": "#c6e2ff",
+          "8": "#d9ecff",
+          "9": "#ecf5ff",
+          "DEFAULT": "#409eff",
+          "dark": "#337ecc",
+        },
+        "el-success": {
+          "3": "#95d475",
+          "5": "#b3e19d",
+          "7": "#d1edc4",
+          "8": "#e1f3d8",
+          "9": "#f0f9eb",
+          "DEFAULT": "#67c23a",
+          "dark": "#529b2e",
+        },
+        "el-warning": {
+          "3": "#eebe77",
+          "5": "#f3d19e",
+          "7": "#f8e3c5",
+          "8": "#faecd8",
+          "9": "#fdf6ec",
+          "DEFAULT": "#e6a23c",
+          "dark": "#b88230",
+        },
+        "n-error": "#d03050",
+        "n-gray": "#333639",
+        "n-info": "#2080f0",
+        "n-primary": "#18a058",
+        "n-success": "#18a058",
+        "n-warning": "#f0a020",
+        "van-danger": "#ee0a24",
+        "van-gray": {
+          "1": "#f7f8fa",
+          "2": "#f2f3f5",
+          "3": "#ebedf0",
+          "4": "#dcdee0",
+          "5": "#c8c9cc",
+          "6": "#969799",
+          "7": "#646566",
+          "8": "#323233",
+        },
+        "van-primary": "#1989fa",
+        "van-success": "#07c160",
+        "van-warning": {
+          "DEFAULT": "#ff976a",
+          "dark": "#ed6a0c",
+          "light": "#fffbe8",
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`color-preset > should get all configs 2`] = `
+{
+  "content": [],
+  "theme": {
+    "extend": {
+      "backgroundImage": {
+        "van-gradient-orange": "linear-gradient(to right, #ffd01e, #ff8917)",
+        "van-gradient-red": "linear-gradient(to right, #ff6034, #ee0a24)",
+      },
+      "colors": {
+        "el-danger": {
+          "3": "#f89898",
+          "5": "#fab6b6",
+          "7": "#fcd3d3",
+          "8": "#fde2e2",
+          "9": "#fef0f0",
+          "DEFAULT": "#f56c6c",
+          "dark": "#c45656",
+        },
+        "el-error": {
+          "3": "#f89898",
+          "5": "#fab6b6",
+          "7": "#fcd3d3",
+          "8": "#fde2e2",
+          "9": "#fef0f0",
+          "DEFAULT": "#f56c6c",
+          "dark": "#c45656",
+        },
+        "el-info": {
+          "3": "#b1b3b8",
+          "5": "#c8c9cc",
+          "7": "#dedfe0",
+          "8": "#e9e9eb",
+          "9": "#f4f4f5",
+          "DEFAULT": "#909399",
+          "dark": "#73767a",
+        },
+        "el-primary": {
+          "3": "#79bbff",
+          "5": "#a0cfff",
+          "7": "#c6e2ff",
+          "8": "#d9ecff",
+          "9": "#ecf5ff",
+          "DEFAULT": "#409eff",
+          "dark": "#337ecc",
+        },
+        "el-success": {
+          "3": "#95d475",
+          "5": "#b3e19d",
+          "7": "#d1edc4",
+          "8": "#e1f3d8",
+          "9": "#f0f9eb",
+          "DEFAULT": "#67c23a",
+          "dark": "#529b2e",
+        },
+        "el-warning": {
+          "3": "#eebe77",
+          "5": "#f3d19e",
+          "7": "#f8e3c5",
+          "8": "#faecd8",
+          "9": "#fdf6ec",
+          "DEFAULT": "#e6a23c",
+          "dark": "#b88230",
+        },
+        "n-error": "#d03050",
+        "n-gray": "#333639",
+        "n-info": "#2080f0",
+        "n-primary": "#18a058",
+        "n-success": "#18a058",
+        "n-warning": "#f0a020",
+        "van-danger": "#ee0a24",
+        "van-gray": {
+          "1": "#f7f8fa",
+          "2": "#f2f3f5",
+          "3": "#ebedf0",
+          "4": "#dcdee0",
+          "5": "#c8c9cc",
+          "6": "#969799",
+          "7": "#646566",
+          "8": "#323233",
+        },
+        "van-primary": "#1989fa",
+        "van-success": "#07c160",
+        "van-warning": {
+          "DEFAULT": "#ff976a",
+          "dark": "#ed6a0c",
+          "light": "#fffbe8",
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`color-preset > should get no config 1`] = `
+{
+  "content": [],
+  "theme": {
+    "extend": {
+      "backgroundImage": {},
+      "colors": {},
+    },
+  },
+}
+`;
+
+exports[`color-preset > should only get element config 1`] = `
+{
+  "content": [],
+  "theme": {
+    "extend": {
+      "backgroundImage": {},
+      "colors": {
+        "el-danger": {
+          "3": "#f89898",
+          "5": "#fab6b6",
+          "7": "#fcd3d3",
+          "8": "#fde2e2",
+          "9": "#fef0f0",
+          "DEFAULT": "#f56c6c",
+          "dark": "#c45656",
+        },
+        "el-error": {
+          "3": "#f89898",
+          "5": "#fab6b6",
+          "7": "#fcd3d3",
+          "8": "#fde2e2",
+          "9": "#fef0f0",
+          "DEFAULT": "#f56c6c",
+          "dark": "#c45656",
+        },
+        "el-info": {
+          "3": "#b1b3b8",
+          "5": "#c8c9cc",
+          "7": "#dedfe0",
+          "8": "#e9e9eb",
+          "9": "#f4f4f5",
+          "DEFAULT": "#909399",
+          "dark": "#73767a",
+        },
+        "el-primary": {
+          "3": "#79bbff",
+          "5": "#a0cfff",
+          "7": "#c6e2ff",
+          "8": "#d9ecff",
+          "9": "#ecf5ff",
+          "DEFAULT": "#409eff",
+          "dark": "#337ecc",
+        },
+        "el-success": {
+          "3": "#95d475",
+          "5": "#b3e19d",
+          "7": "#d1edc4",
+          "8": "#e1f3d8",
+          "9": "#f0f9eb",
+          "DEFAULT": "#67c23a",
+          "dark": "#529b2e",
+        },
+        "el-warning": {
+          "3": "#eebe77",
+          "5": "#f3d19e",
+          "7": "#f8e3c5",
+          "8": "#faecd8",
+          "9": "#fdf6ec",
+          "DEFAULT": "#e6a23c",
+          "dark": "#b88230",
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`color-preset > should only get naive config 1`] = `
+{
+  "content": [],
+  "theme": {
+    "extend": {
+      "backgroundImage": {},
+      "colors": {
+        "n-error": "#d03050",
+        "n-gray": "#333639",
+        "n-info": "#2080f0",
+        "n-primary": "#18a058",
+        "n-success": "#18a058",
+        "n-warning": "#f0a020",
+      },
+    },
+  },
+}
+`;
+
+exports[`color-preset > should only get vant config 1`] = `
+{
+  "content": [],
+  "theme": {
+    "extend": {
+      "backgroundImage": {
+        "van-gradient-orange": "linear-gradient(to right, #ffd01e, #ff8917)",
+        "van-gradient-red": "linear-gradient(to right, #ff6034, #ee0a24)",
+      },
+      "colors": {
+        "van-danger": "#ee0a24",
+        "van-gray": {
+          "1": "#f7f8fa",
+          "2": "#f2f3f5",
+          "3": "#ebedf0",
+          "4": "#dcdee0",
+          "5": "#c8c9cc",
+          "6": "#969799",
+          "7": "#646566",
+          "8": "#323233",
+        },
+        "van-primary": "#1989fa",
+        "van-success": "#07c160",
+        "van-warning": {
+          "DEFAULT": "#ff976a",
+          "dark": "#ed6a0c",
+          "light": "#fffbe8",
+        },
+      },
+    },
+  },
+}
+`;

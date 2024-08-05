@@ -27,6 +27,7 @@
     "node": "^18.12.0 || ^20.9.0 || >=22.0"
   },
   "scripts": {
+    "test": "vitest",
     "lint": "eslint .",
     "build:css": "tailwindcss -i fixtures/styles/tailwind.css -o fixtures/styles/output.css -w",
     "build": "pnpm -r build",
@@ -48,6 +49,7 @@
     "simple-git-hooks": "^2.11.1",
     "tailwindcss": "^3.4.7",
     "typescript": "~5.3.3",
-    "unbuild": "^2.0.0"
+    "unbuild": "^2.0.0",
+    "vitest": "^2.0.5"
   }
 }
