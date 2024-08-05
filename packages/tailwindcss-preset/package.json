@@ -1,7 +1,7 @@
 {
   "name": "@leedomjs/tailwindcss-preset",
   "type": "module",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "tailwindcss preset",
   "keywords": [
     "mini program",
