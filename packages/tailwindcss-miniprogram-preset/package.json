@@ -39,10 +39,10 @@
     "tailwindcss": ">=2.2.19"
   },
   "dependencies": {
-    "tailwindcss": "^3.4.7"
+    "tailwindcss": "catalog:"
   },
   "devDependencies": {
-    "typescript": "~5.3.3",
-    "unbuild": "^2.0.0"
+    "typescript": "catalog:",
+    "unbuild": "catalog:"
   }
 }

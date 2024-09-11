@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.8.0",
   "private": true,
-  "packageManager": "pnpm@8.15.5",
+  "packageManager": "pnpm@9.10.0",
   "description": "tailwindcss presets",
   "keywords": [
     "tailwind",
@@ -41,15 +41,15 @@
     "packages/**/*.ts": "eslint --fix"
   },
   "devDependencies": {
-    "@leedomjs/eslint-config-ts": "^0.12.2",
+    "@leedomjs/eslint-config-ts": "catalog:",
     "@leedomjs/tailwindcss-preset": "workspace:*",
-    "bumpp": "^9.4.2",
-    "eslint": "8.57.0",
-    "lint-staged": "^15.2.8",
-    "simple-git-hooks": "^2.11.1",
-    "tailwindcss": "^3.4.7",
-    "typescript": "~5.3.3",
-    "unbuild": "^2.0.0",
-    "vitest": "^2.0.5"
+    "bumpp": "catalog:",
+    "eslint": "catalog:",
+    "lint-staged": "catalog:",
+    "simple-git-hooks": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:",
+    "unbuild": "catalog:",
+    "vitest": "catalog:"
   }
 }
